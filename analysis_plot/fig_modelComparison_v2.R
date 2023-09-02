@@ -41,7 +41,7 @@ for (i in 1:length(datasets)) {
   # Poisson
   
   # 10x dir
-  poi_dir = paste0('/rprojectnb2/camplab/home/yin/poisson/20220901_pbmc_shrinkage_2_delta_prior/', file_poi)
+  poi_dir = paste0('/rprojectnb2/camplab/home/yin/poisson/model_poisson/', file_poi)
   if (file.exists(poi_dir)) {
     load(poi_dir)
   } else {

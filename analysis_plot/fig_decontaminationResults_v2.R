@@ -18,7 +18,7 @@ cbPalette = c("#000000", cbPalette)
 
 file_name = 'shrinkage_data_pbmc10khealthdonor'
 
-load(paste0('/rprojectnb2/camplab/home/yin/poisson/20220901_pbmc_shrinkage_2_delta_prior/',
+load(paste0('/rprojectnb2/camplab/home/yin/poisson/model_poisson/',
             file_name,'_Robj.Rdata'))
 
 
